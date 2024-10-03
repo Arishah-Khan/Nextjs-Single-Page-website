@@ -15,7 +15,7 @@ const archivo = Archivo({
 });
 
 export default function Navbar() {
-    // State for managing menu toggle
+
     const [isOpen, setIsOpen] = useState(false);
 
     return (
@@ -40,13 +40,12 @@ export default function Navbar() {
                     </div>
                 </div>
 
-                {/* Burger Menu Toggle for Mobile */}
                 <button onClick={() => setIsOpen(!isOpen)} className="md:hidden text-[24px]">
                     <FontAwesomeIcon icon={isOpen ? faTimes : faBars} className="text-[#F83D8E]" />
                 </button>
             </nav>
 
-            {/* Mobile Menu */}
+        
             {isOpen && (
                 <div className="md:hidden flex flex-col items-center bg-white py-4">
                     <ul className={`${archivo.className} flex flex-col items-center gap-y-3 list-none`}>

@@ -17,7 +17,7 @@ interface ButtonProps {
 
 export default function Button({ text, bgColor }: ButtonProps) {
     return (
-        <div className="flex justify-center items-center"> {/* Parent container for centering */}
+        <div className="flex justify-center items-center"> 
             <button
                 className={`text-white rounded-3xl px-4 py-2 md:text-sm lg:text-base ${archivo.className} shadow-[0_4px_2px_-1px_#FFB2D5]  ${bgColor} 
                 hover:bg-white hover:text-pink-500 hover:outline hover:outline-2 hover:outline-purple-400 flex items-center`} 
