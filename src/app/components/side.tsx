@@ -43,7 +43,7 @@ export default function Side({
       <h1 className={`${berkshireSwash.className} ${customClasses}`}>
       {discoverText} <span className="text-[#F83D8E]">{highlightText}</span> {delightText}
       </h1>
-      <p className={`${archivo.className} my-4  text-sm md:text-base`}>
+      <p className={`${archivo.className} my-4 text-center px-3 text-sm md:text-base`}>
         {description}
       </p>
       <Button text={buttonText} bgColor={buttonColor} />
