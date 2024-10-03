@@ -30,7 +30,7 @@ export default function Navbar() {
                         <li className="text-gray-400 cursor-not-allowed">About Us</li>
                         <li className="text-gray-400 cursor-not-allowed">Pages</li>
                         <li className="text-gray-400 cursor-not-allowed">Blog</li>
-                        <li className="text-gray-400 cursor-not-allowed">Faq's</li>
+                        <li className="text-gray-400 cursor-not-allowed">Faqs</li>
                     </ul>
 
                     <div className="flex justify-center items-center gap-x-4 ml-auto">
@@ -56,7 +56,7 @@ export default function Navbar() {
                         <li className="text-gray-400 cursor-not-allowed">About Us</li>
                         <li className="text-gray-400 cursor-not-allowed">Pages</li>
                         <li className="text-gray-400 cursor-not-allowed">Blog</li>
-                        <li className="text-gray-400 cursor-not-allowed">Faq's</li>
+                        <li className="text-gray-400 cursor-not-allowed">Faqs</li>
                     </ul>
 
                     <div className="flex justify-center items-center gap-x-4 mt-4">
